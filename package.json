@@ -1,0 +1,31 @@
+{
+  "name": "sampleapp",
+  "version": "1.0.0",
+  "private": true,
+  "description": "practice for angular materials",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "grunt copy",
+    "start": "node ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ckroening/sampleapp.git"
+  },
+  "author": "Charlotte Kroening",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ckroening/sampleapp/issues"
+  },
+  "homepage": "https://github.com/ckroening/sampleapp#readme",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "cookie-parser": "^1.4.1",
+    "express": "^4.13.4",
+    "grunt": "^0.4.5",
+    "jade": "^1.11.0",
+    "mongodb": "^2.1.4",
+    "mongoose": "^4.3.7",
+    "path": "^0.12.7"
+  }
+}
